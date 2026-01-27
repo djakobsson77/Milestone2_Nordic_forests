@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+body {
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #103e10;
+    color: #f5deb3;
+}
+
+/* Navbar styling */
+#navbar {
+    background-color: #33cd31;
+    color: white
+}
+
+.nav-item:hover {
+    font-weight: 900;
+}
