@@ -11,9 +11,33 @@ body {
 /* Navbar styling */
 #navbar {
     background-color: #33cd31;
-    color: white
 }
 
 .nav-item:hover {
     font-weight: 900;
+}
+
+/* Footer styling */
+footer {
+    background-color: #000000;
+    color: #f5deb3;
+}
+
+.contact-input {
+width: 50%;
+background-color: transparent;
+color: #f5deb3;
+}
+
+[type="submit"] {
+    width: 10%;
+    background: #00173c;
+    border-radius: 200px;
+    border: 0;
+    cursor: pointer;
+    color: #f5deb3;
+}
+
+[type="submit"]:hover {
+    background: #000080;
 }
