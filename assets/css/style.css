@@ -63,3 +63,46 @@ color: #f5deb3;
         -ms-flex-positive: 1;
             flex-grow: 1;
 }
+
+/* Buttons styling */
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    border: 1px solid lightgrey;
+}
+
+.btn-green {
+    background-color: #049c04;
+}
+
+.btn-red {
+    background-color: #FF0000;
+}
+
+/* Facts container styling */
+.container {
+    padding-top: 20px;
+}
+
+.fact-card {
+    text-align: center;
+    color: #f5deb3;
+    background-color: #2e8b57;
+    width: 200px;
+    height: 325px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+.fact-card > p {
+    color: #f5deb3;
+}
