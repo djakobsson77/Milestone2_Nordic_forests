@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="About nordic forests and their hidden treasures.">
+    <meta name="keywords" content="Nordic, Forests, Nature, Treasures, Scandinavia">
+    <meta name="author" content="Daniel Jacobsson">
+
+    <title>Treasures in the Nordic Forests</title>
+
+    <!-- Bootstrap CSS & JS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Custom CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+ <!-- header -->
+    <header>
+        <nav id=navbar class="navbar navbar-expand-sm">
+            <div class="container">
+                <div class="navbar-brand">
+                    Nordic Treasures
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="treasures.html">The Treasures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="forests.html">Forests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="quiznfacts.html">Quiz'n'Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+   <!-- main content -->
+<main>
+    <div class="container qcontainer">
+        <div class="quiz-container">
+            <h1>Quiz'n'Facts</h1>
+            <div class="quiz-header">
+                <h3>Quiz about berries, fungus, trees & forests</h3>
+                <div class="progress">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <p id="questionCount">Question 1 of 5</p>
+            </div>
+
+            <div class="quiz-content">
+                <div id="questionContainer" class="question-container">
+                    <h2 id="question"></h2>
+                    <div id="optionsContainer" class="options-container"></div>
+                </div>
+
+                <div id="resultContainer" class="result-container hidden">
+                    <h2>Quiz Completed!</h2>
+                    <p>Your Score: <span id="finalScore">0</span>/<span id="totalQuestions">0</span></p>
+                    <p>Percentage: <span id="percentage">0</span>%</p>
+                    <button onclick="location.reload()" class="btn btn-primary">Retake Quiz</button>
+                </div>
+            </div>
+
+            <div class="quiz-footer">
+                <button id="prevBtn" class="btn btn-secondary" onclick="previousQuestion()">Previous</button>
+                <button id="nextBtn" class="btn btn-primary" onclick="nextQuestion()">Next</button>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mb-5">
+            <h3 class="mb-3">Did you know? 5 fun facts about berries, fungus and forests</h3>
+        </div>
+        <div id="buttons-container" class="text-center mb-5">
+            <button class="btn btn-green" onclick="addFact()">New fact</button>
+            <button class="btn btn-red" onclick="clearAllFacts()">Clear facts</button>
+        </div>
+        <div id="facts-container" class="container"></div>
+</main>
+<!-- footer and contact section -->
+    <footer id="contact" class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-12 mt-4 text-center">
+                    <h4>Contact form</h4>
+                    <p>If you have questions or just want to reach out to me,<br>
+                        please fill out this form and I will contact you</p>
+                        <!-- Contact form -->
+                    <section class="contact-section">
+                        <form action="success.html" method="GET">
+                            <label for="name" hidden>Name:</label>
+                            <input name="name" id="name" type="text" class="contact-input" placeholder="Name"
+                                required><br>
+                            <label for="email" hidden>Email:</label>
+                            <input name="email" id="email" type="email" class="contact-input" placeholder="Email"
+                                required><br>
+                            <label for="message" hidden>Message:</label>
+                            <textarea name="message" id="message" class="contact-input"
+                                placeholder="Type your message here" required></textarea>
+                            <div>
+                                <button type="submit" class="submit-btn">Send</button>
+                            </div>
+                        </form>
+                        
+                    </section>
+                </div>
+                <div class="col-12 mt-5 text-center">
+                    <p>&copy; 2026 Daniel Jacobsson</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Custom JS script -->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
