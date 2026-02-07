@@ -12,7 +12,6 @@ The Nordic Treeasures Website is a responsive website allowing visitors to view 
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
 
 * [Features](#features)
   * [General Features on Each Page](#general-features-on-each-page)
@@ -79,10 +78,6 @@ Suitable for the webpage and inspires the viewer to think about ancient forests.
 
 ### Imagery
 All the images on the site is chosen from Pinterest website.
-
-### Wireframes
-I have focused so much on learning, understand and implement JavaScript so I did not have time for making wireframes this time.
-
 
 ## Features
 The website consists of 5 pages, the index page, a treasures page, a forests page, a quiznfacts page and a success page.
