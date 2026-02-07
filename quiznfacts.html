@@ -61,11 +61,17 @@
                 <div class="progress">
                     <div class="progress-bar" id="progressBar"></div>
                 </div>
-                <p id="questionCount">Question 1 of 5</p>
+                <p id="questionCount">Question 1 of 10</p>
             </div>
 
             <div class="quiz-content">
-                <div id="questionContainer" class="question-container">
+                <div id="startContainer" class="start-container">
+                    <h2>Ready to test your knowledge?</h2>
+                    <p>Answer 10 questions about berries, fungus, trees & forests.</p>
+                    <button onclick="startQuiz()" class="btn btn-primary btn-lg">Start Quiz</button>
+                </div>
+
+                <div id="questionContainer" class="question-container hidden">
                     <h2 id="question">Q</h2>
                     <div id="optionsContainer" class="options-container"></div>
                 </div>

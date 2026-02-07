@@ -194,5 +194,17 @@ function completeQuiz() {
     document.querySelector('.quiz-footer').classList.add('hidden');
 }
 
-// Initialize quiz on page load
-window.addEventListener('DOMContentLoaded', initQuiz);
+function startQuiz() {
+    // Hide start screen and show quiz
+    document.getElementById('startContainer').classList.add('hidden');
+    document.getElementById('questionContainer').classList.remove('hidden');
+    document.querySelector('.quiz-footer').classList.remove('hidden');
+    
+    // Initialize quiz
+    initQuiz();
+}
+
+// Show start screen on page load (don't initialize quiz yet)
+window.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.quiz-footer').classList.add('hidden');
+});

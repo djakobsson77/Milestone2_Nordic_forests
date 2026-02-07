@@ -160,6 +160,26 @@ color: #f5deb3;
     min-height: 300px;
 }
 
+.start-container {
+    text-align: center;
+    padding: 40px;
+    -webkit-animation: fadeIn 0.3s ease;
+            animation: fadeIn 0.3s ease;
+}
+
+.start-container h2 {
+    color: #f5deb3;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.start-container p {
+    color: #f5deb3;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
 .question-container {
     -webkit-animation: fadeIn 0.3s ease;
             animation: fadeIn 0.3s ease;
