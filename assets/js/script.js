@@ -41,10 +41,7 @@ if (factsIndex === facts.length) {
 
 function clearAllFacts() {
     factsContainer.innerHTML = "";
-    if (factsIndex === facts.length) {
-    btnsContainer.removeChild(newFactBtn[0]);
-    }
-factsIndex = 0;
+    factsIndex = 0;
 }
 
 // Quiz Functionality
