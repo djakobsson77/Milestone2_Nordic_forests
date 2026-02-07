@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
+/* colors used: 
+body background color: #103e10 (dark green) 
+navbar: #33cd31 (light green)
+text: #f5deb3 (wheat), 
+contact form #000000 */
+
 body {
     font-family: "Macondo", cursive;
     font-weight: 400;
@@ -68,7 +74,6 @@ color: #f5deb3;
 .btn {
     font-size: 15px;
     font-weight: bold;
-    background-color: #33cd31;
     border-radius: 5px;
     padding: 5px;
     margin: 5px;

@@ -41,7 +41,7 @@ The Nordic Treeasures Website is a responsive website allowing visitors to view 
 
 ### Project Goals
 
-The main goal with this project is to view what the nordic forests can offer when it comes to berries and mushrooms that grows within the deep forests.
+The main goal with this project is to show what the nordic forests can offer when it comes to berries and mushrooms that grows within the deep forests.
 
 ### User Stories
 
@@ -56,67 +56,54 @@ The main goal with this project is to view what the nordic forests can offer whe
  * I want to know more about the nordic nature.
 
 #### Returning Visitor Goals
- * I want to see if this person has gained any new skills
- * I want to contact this person with questions I might have
+ * I want to review the forest hotspots to visit.
+ * I want to contact the author with questions I might have
 
 ## Design
 
 ### Color Scheme
-I spent quite much time choosing the basic colors for the website and these is what I found looked nice:
+Colors were carefully picked to suit the webpage theme:<br>
+Lime green (#33CD31) for the navbar.<br>
+Black forest (#103E10) for the body background.<br>
+Wheat (#F5DEB3) for the text.<br>
+Black (#000000) for the contact form background.<br>
+Some other colors were choosed for the buttons but it doesn't change the overall color consistency of the webpage.<br>
 
-<img src="assets/readme/portfolio_palette.png" alt=Portfolio_Palette width="700px">
+<img src="assets/readme/palette.png" alt=Palette width="700px">
 
 ### Typography
-Google fonts were used and I choosed the Titillium Web font which is a sans-serif font.
-I  went through many fonts when choosing and this catched my eye. It's simple but at the same time unique and it fits my style for the website.
+Google fonts were used and I choosed the Macondo font which is a stylized calligraphic font.
+Suitable for the webpage and inspires the viewer to think about ancient forests.
 
-![Titillium Web Google Font](assets/readme/titillium.png)
+![Macondo Google Font](assets/readme/macondo.png)
 
 ### Imagery
-The images on the site is chosen from Pinterest website except for the selfie image of myself which is taken with my phone.
-Most of the certificate images is what I own, others I have "borrowed" but since I edited them to blurred, they cannot be recognisable.
+All the images on the site is chosen from Pinterest website.
 
 ### Wireframes
-I have created wireframes for all 4 pages using Balsamiq.
-Here are the images<br>
-Home page:<br>
-![Home mobile Wireframe](assets/readme/home_mobile.png)<br>
-![Home tablet Wireframe](assets/readme/home_tablet.png)<br>
-![Home desktop Wireframe](assets/readme/home_desktop.png)<br>
-About me page:<br>
-![About mobile Wireframe](assets/readme/about_mobile.png)<br>
-![About tablet Wireframe](assets/readme/about_tablet.png)<br>
-![About desktop Wireframe](assets/readme/about_desktop.png)<br>
-Projects page:<br>
-![Projects mobile Wireframe](assets/readme/projects_mobile.png)<br>
-![Projects tablet Wireframe](assets/readme/projects_tablet.png)<br>
-![Projects desktop Wireframe](assets/readme/projects_desktop.png)<br>
-Success page:<br>
-![Success mobile Wireframe](assets/readme/success_mobile.png)<br>
-![Success tablet Wireframe](assets/readme/success_tablet.png)<br>
-![Success desktop Wireframe](assets/readme/success_desktop.png)<br>
+I have focused so much on learning, understand and implement JavaScript so I did not have time for making wireframes this time.
 
 
 ## Features
-The website consists of 4 pages, the index page, an about page, a projects page and a success page.
+The website consists of 5 pages, the index page, a treasures page, a forests page, a quiznfacts page and a success page.
 
-The index page is the main page and has a navbar, a section with a introducing text along with an image of a coder, a footer with contact information and a contact form.
+The index page is the main page and has a navbar, a section with a introducing text along with 2 images of the nordic nature, a footer with a contact form.
 
-The about page has the navbar, a hero image, some information and images of what skills I have and what achievements I have gained and finally a brief story about me, my background and how it all started.
+The treasures page has the navbar, 6 images of berries and 4 images of mushrooms along with some information about each one of them. At the bottom is the contact form available.
 
-The projects page shows what projects I have worked on. There are 4 of them. The first is about what kind of fruits, berries and mushrooms that grows within the nordic forests and the benefits from them. Second, I have worked on a project about a series of computer games named "The Secret of Monkey Island. Third is a project about the band named Kite. And fourth is a project about the little cube we all know as Rubik's cube.
+The forests page has the navbar, shows 5 different hotspots in Sweden to visit and information about what you can find on each place and at bottom is the contact form. 
+
+The quiznfacts page has the navbar, a quiz with 10 questions, and 5 facts about berries, mushrooms, trees and forests.
 
 The success page comes up when the user sends a correctly filled contact form in the footer. It notify the user that the message has been sent successfully.
 
 ### General features on Each Page
 All pages have:
  1. A navbar which helps the visitor to navigate around the website.
- 2. A favicon that is a logo and consists image of DJ initials and a circle around in white on a black background.
+ 2. A contact form so visitors easily can get in contact with me.
 
 ### Future Implementations
-* I have written a "could have" user story where I have an idea of implement a downloadable CV in pdf format.
-* More achievements may be included as I intend to continue my learning and also more projects can be added.
-* As I learn more about JavaScript, more interactive functions can be included on the website
+* As I learn more and more about JavaScript, more interactive functions can be included on the website
 
 ### Accessibility
 I have had much thoughts about how to make the website accessible friendly. I have achieved this by:
@@ -128,26 +115,20 @@ I have had much thoughts about how to make the website accessible friendly. I ha
 ## Technologies Used
 
 ### Languages Used
-Mainly HTML and CSS
+HTML, CSS and JavaScript
 
 ### Frameworks, Libraries & Programs Used
 Bootstrap - For responsiveness and for some styling
 
-Balsamiq - to create frameworks.
-
 Coolors and Imagecolorpicker - A combination of these to choose the colors on the website.
 
 Google fonts - for choosing the font used throughout the website.
-
-Font Awesome - For the icons on the website.
 
 Git - For version control
 
 Github - To store the files for the website
 
 Tiny PNG and Birme - Combinated to compress and convert the images to webp.
-
-Favicon.io - To create the favicon
 
 Google Dev Tools - To test functions and troubleshoot issues with responsiveness.
 
@@ -156,12 +137,12 @@ Google Dev Tools - To test functions and troubleshoot issues with responsiveness
 ### Deployment
 
 The website is deployed using Github.
-You can visit it [here.](https://djakobsson77.github.io/Milestone1_Portfolio)
+You can visit it [here.](https://djakobsson77.github.io/Milestone2_Nordic_forests/index.html)
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [djakobsson77/Milestone1-Portfolio](https://github.com/djakobsson77/Milestone1_Portfolio.git)
+2. Go to the repository for this project, [djakobsson77/Milestone2-Nordic_forests](https://github.com/djakobsson77/Milestone2_Nordic_forests.git)
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -174,7 +155,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [djakobsson77/Milestone1-Portfolio](https://github.com/djakobsson77/Milestone1_Portfolio.git)
+2. Go to the repository for this project, [djakobsson77/Milestone2-Nordic_forests](https://github.com/djakobsson77/Milestone2_Nordic_forests.git)
 3. Click the Fork button in the top right corner.
 
 
@@ -183,7 +164,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [djakobsson77/Milestone1-Portfolio](https://github.com/djakobsson77/Milestone1_Portfolio.git)
+2. Go to the repository for this project, [djakobsson77/Milestone2-Nordic_forests](https://github.com/djakobsson77/Milestone2_Nordic_forests.git)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -199,19 +180,17 @@ And with the Google Chrome browser and Microsoft Edge browser.
 | --- | --- | --- | --- | --- | --- |
 | Navbar | | | | | |
 | Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
-| About me | Click on the "About me" link | The user is redirected to the about page | Yes | Yes | - |
-| Projects | Click on the "Projects" link | The user is redirected to the projects page | Yes | Yes | - |
-| Contact | Click on the "Contact" link | The user is redirected to the contact section on the index page | Yes | Yes | - |
-| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
-| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
-| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
+| The Treasures | Click on "The Treasures" link | The user is redirected to the treasures page | Yes | Yes | - |
+| Forests | Click on the "Forests" link | The user is redirected to the forests page | Yes | Yes | - |
+| Quiz'n'Facts | Click on the "Quiz'n'Facts" link | The user is redirected to the quiznfacts page | Yes | Yes | - |
+| Contact | Click on the "Contact" link | The user is redirected to the contact section at bottom of the webpage | Yes | Yes | - |
 | Home page | | | | | |
-| About me page | | | | | |
-| Projects page | | | | | |
-| Contact form in the footer:
-| Name input | Enter the name | The name is entered | Yes | Yes | If user doesn't enter the name, the error message appears |
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Message input | Enter a message | Message is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| The Treasures page | | | | | |
+| Forests page | | | | | |
+| Quiz'n'Facts page | Click the buttons in the quiz, the new fact button and reset facts button| All the buttons in the quiz and facts works as intended | Yes | Yes | |
+| Contact form in the footer | Name input:<br> Enter the name | The name is entered | Yes | Yes | If user doesn't enter the name, the error message appears |  
+| | Email input:<br>Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| | Message input:<br>Enter a message | Message is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
 | "SEND" button | Click on the "SEND" button | The user is redirected to a success page and is notified about message sent successfully | Yes | Yes | - |
 | Success page | Click on the Return to home page | The user is redirected to the main page | Yes | Yes | - |
 
@@ -246,11 +225,12 @@ The devtools console returned one error which was solved by deleting the if stat
 
 I used [Autoprefixer CSS Online](https://autoprefixer.github.io/) for putting prefixes to the CSS so it will work on all browsers.
 
-I used Lighthouse in Google Dev Tools to see the performance. The report displayed good values on all html files so I let it stay.
-![Index.html Lighthouse](assets/readme/index_lighthouse.png)
-![About.html Lighthouse](assets/readme/about_lighthouse.png)
-![Projects.html Lighthouse](assets/readme/projects_lighthouse.png)
-![Success.html Lighthouse](assets/readme/success_lighthouse.png)
+I used Lighthouse in Google Dev Tools to see the performance. The report displayed good values on all html files so I let it stay.<br>
+<img src="assets/readme/index_lighthouse.png" width="400">
+<img src="assets/readme/treasures_lighthouse.png" width="400">
+<img src="assets/readme/forests_lighthouse.png" width="400">
+<img src="assets/readme/quiznfacts_lighthouse.png" width="400">
+<img src="assets/readme/success_lighthouse.png" width="400">
 
 ## Credits
 
@@ -263,8 +243,6 @@ All content is written by me, Daniel Jacobsson, the author of the website.
 ### Media
 
 All images was found on [Pinterest](https://www.pinterest.com).
-Some of the certificates on the About me section I own myself and have gained through study courses on [Sololearn](https://www.sololearn.com), [Mimo](https://www.mimo.org) and [Codecademy](https://www.codecademy.com). I haven't completed all courses yet and that is why some of them is blurred and I have written in them what it will be when finished.
-The hero image is of course taken by myself.
 
 ### Acknowledgments
-Many thanks to Julia Konovalova for all her help and advice in my work with finishing this project
+I took a little help of the Co-Pilot AI to code the last bit of the quiz in JavaScript but I carefully inspected and studied the code after to fully understand the outcome.
